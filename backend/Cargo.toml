@@ -1,0 +1,10 @@
+[package]
+name = "rm-dash-backend"
+version = "0.1.0"
+edition = "2026"
+
+[dependencies]
+appload-client = { path = "../appload-rust-backend" }
+async-trait = "0.1.83"
+tokio = { version = "1.42.0", features = ["macros", "rt", "rt-multi-thread"] }
+

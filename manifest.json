@@ -1,0 +1,8 @@
+{
+  "name": "RM-Dash",
+  "loadsBackend": true,
+  "entry": "/ui/rm-dash.qml",
+  "id": "rm-dash",
+  "supportsScaling": false,
+  "canHaveMultipleFrontends": true
+}
