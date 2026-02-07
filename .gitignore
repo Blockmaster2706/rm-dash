@@ -1,7 +1,6 @@
 target
 output
 appload
-application.qrc
 
 applications_root
 _start.qml

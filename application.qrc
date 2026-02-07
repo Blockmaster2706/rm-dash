@@ -1,0 +1,5 @@
+<RCC>
+    <qresource>
+        <file>ui/rm-dash.qml</file>
+    </qresource>
+</RCC>
