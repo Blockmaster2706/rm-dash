@@ -19,7 +19,7 @@ impl AppLoadBackend for MyBackend {
                 println!("Backend got a message: {}", &message.contents);
                 functionality.send_message(
                     101,
-                    &format!("Backend responds to message {}", message.contents)
+                    &format!(":3")
                 ).unwrap();
             }
             _ => println!("Unknown message received.")

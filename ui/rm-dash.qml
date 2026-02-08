@@ -10,7 +10,7 @@ Rectangle {
     // All endpoints will get all messages sent from the backend
     AppLoad {
         id: appload
-        applicationID: "example"
+        applicationID: "rm-dash"
         onMessageReceived: (type, contents) => {
             switch(type){
                 case 101:
@@ -25,7 +25,7 @@ Rectangle {
         anchors.centerIn: parent
         width: parent.width
         horizontalAlignment: Text.AlignHCenter
-        text: 'Hello, world!'
+        text: 'Hello, world uwu!'
         font.pointSize: 48
     }
 
